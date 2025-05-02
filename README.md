@@ -6,7 +6,7 @@ This project demonstrates a routing agent setup using [LlamaIndex](https://githu
 
 ## 🚀 Features
 
-- ✅ Uses `Groq` API to access **LLaMA 3-70B** via LlamaIndex
+- ✅ Uses `Groq` to access **LLaMA 3-70B** via LlamaIndex
 - ✅ HuggingFace `bge-small-en-v1.5` model for text embeddings
 - ✅ Indexes and queries PDF documents (`AeroFlow` and `EcoSprint`)
 - ✅ Routes questions automatically to the correct index using `RouterQueryEngine`
