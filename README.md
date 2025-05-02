@@ -2,7 +2,7 @@
 
 This project demonstrates a routing agent setup using [LlamaIndex](https://github.com/jerryjliu/llama_index), [Groq's LLaMA3-70B model](https://console.groq.com/), and [HuggingFace Embeddings](https://huggingface.co/BAAI/bge-small-en-v1.5) for answering queries from multiple domain-specific documents.
 
----
+
 
 ## 🚀 Features
 
@@ -12,7 +12,7 @@ This project demonstrates a routing agent setup using [LlamaIndex](https://githu
 - ✅ Routes questions automatically to the correct index using `RouterQueryEngine`
 - ✅ Built in **Google Colab** with interactive Q&A support
 
----
+
 
 ## 📁 Project Structure
 ```text
@@ -23,7 +23,7 @@ This project demonstrates a routing agent setup using [LlamaIndex](https://githu
 └── LICENSE.txt
 ```
 
----
+
 
 ## 🧱 Requirements
 
@@ -34,7 +34,7 @@ This project demonstrates a routing agent setup using [LlamaIndex](https://githu
 - `groq` API Key
 - Google Colab or local Jupyter environment
 
----
+
 
 ## 🔧 Setup Instructions
 1. **Upload PDF documents:** Place AeroFlow_Specification_Document.pdf and EcoSprint_Specification_Document.pdf in the working directory or Colab file manager.
@@ -73,7 +73,7 @@ response = router_agent.query("What colors are available for EcoSprint?")
 print(response)
 ```
 
----
+
 
 ## 🤖 Technologies Used
 - LlamaIndex
@@ -86,7 +86,7 @@ print(response)
 
 - Python
 
----
+
 
 ## 📌 Sample Use Case
 🔍 Ask: "What colors are available for AeroFlow?"
